@@ -22,6 +22,12 @@ fstab_entries:
           options: acl,user_xattr
           backup: 1
           file_sys_check: 1
+        - device: ""
+          mount_point: ""
+          file_system: ""
+          options: ""
+          backup: ""
+          file_sys_check: ""
         - device: /dev/sdc1
           mount_point: /novi_disk
           file_system: ext3
